@@ -10,7 +10,7 @@ export default function LayOut() {
   return (
    <>
    <NavBar/>
-   <div className="container  py-24 mb-48 max-w-7xl max-h-full  mx-auto">
+   <div className="container   py-24 mb-48 max-w-7xl max-h-full  mx-auto">
    <Outlet></Outlet>
    </div>
    {/* <Footer/> */}

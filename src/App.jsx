@@ -40,8 +40,8 @@ let CatergoriesDetails=lazy(()=>import('./components/CatergoriesDetails/Catergor
 
 const routes = createBrowserRouter([
   {
-    path: "", element: <LayOut />, children: [
-      { path: "", element: 
+    path: "/", element: <LayOut />, children: [
+      { path: "/", element: 
         <Suspense fallback={"<h1>Loading register Page</h1>"}>
         <Register/>
       </Suspense>

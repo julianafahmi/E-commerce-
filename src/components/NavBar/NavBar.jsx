@@ -71,7 +71,7 @@ export default function NavBar() {
         </li>
 </> : <>
         <li>
-        <NavLink to=''>Register</NavLink>
+        <NavLink to='/'>Register</NavLink>
         </li>
         <li>
         <NavLink to='login'>Login</NavLink>
