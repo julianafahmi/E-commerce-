@@ -2,11 +2,8 @@
   "name": "e-comerceapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://julianafahmi.github.io/E-commerce-",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
